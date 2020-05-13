@@ -8,8 +8,17 @@ output:
     highlight: github
 ---
 
-Write the contents here!
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      dpi = 400,
+                      warning = FALSE,
+                      message = FALSE,
+                      fig.align = 'center',
+                      comment = "#>")
+```
+
+
 
 ---
 
-<h5 align="center">©2019 TidyFriday</h5>
+<h5 align="center">©2020 TidyFriday</h5>
